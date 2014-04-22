@@ -1699,7 +1699,7 @@
                 }, {
                     id: 'facebook',
                     type: 'image',
-                    rect: ['519px', '586px', '40px', '40px', 'auto', 'auto'],
+                    rect: ['519px', '596px', '40px', '40px', 'auto', 'auto'],
                     fill: ["rgba(0,0,0,0)", im + "facebook.png", '0px', '0px'],
                     transform: [
                         [],
@@ -1804,7 +1804,7 @@
                 }, {
                     id: 'tw',
                     type: 'image',
-                    rect: ['556px', '586px', '40px', '40px', 'auto', 'auto'],
+                    rect: ['556px', '596px', '40px', '40px', 'auto', 'auto'],
                     fill: ["rgba(0,0,0,0)", im + "tw.png", '0px', '0px'],
                     transform: [
                         [],
@@ -1815,7 +1815,7 @@
                 }, {
                     id: 'vk',
                     type: 'image',
-                    rect: ['592px', '586px', '40px', '40px', 'auto', 'auto'],
+                    rect: ['592px', '596px', '40px', '40px', 'auto', 'auto'],
                     fill: ["rgba(0,0,0,0)", im + "vk.png", '0px', '0px'],
                     transform: [
                         [],
@@ -2085,7 +2085,7 @@
                         ["style", "display", 'none']
                     ],
                     "${_vk}": [
-                        ["style", "top", '586px'],
+                        ["style", "top", '596px'],
                         ["transform", "scaleX", '0.74'],
                         ["style", "left", '-120px'],
                         ["transform", "scaleY", '0.74']
@@ -2177,7 +2177,7 @@
                         ["style", "left", '424px']
                     ],
                     "${_tw}": [
-                        ["style", "top", '586px'],
+                        ["style", "top", '596px'],
                         ["transform", "scaleX", '0.74'],
                         ["style", "left", '-224px'],
                         ["transform", "scaleY", '0.74']
@@ -2453,7 +2453,7 @@
                         ["transform", "scaleX", '0.7']
                     ],
                     "${_facebook}": [
-                        ["style", "top", '586px'],
+                        ["style", "top", '596px'],
                         ["transform", "scaleX", '0.74'],
                         ["style", "left", '-61px'],
                         ["transform", "scaleY", '0.74']
