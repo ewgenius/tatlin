@@ -6,6 +6,7 @@
 	<title>Untitled</title>
 <!--Adobe Edge Runtime-->
     <script type="text/javascript" charset="utf-8" src="index_edgePreload.js"></script>
+    <script type="text/javascript" charset="utf-8" src="js/html2canvas.js"></script>
     <style>
         .edgeLoad-EDGE-39628508 { visibility:hidden; }
     </style>
@@ -20,6 +21,27 @@
 <body style="margin:0;padding:0;height:100%;">
 	<div id="Stage" class="EDGE-39628508">
 	</div>
+    <script>
+        function create_image() {
+            var items = $('.ui-draggable');
+
+            var pane = $('.Stage_cf_id');
+            var parent = $('.ui-draggable').parent();
+
+            items.each(function(index, item) {
+                pane.append(item);
+            });
+
+            html2canvas(pane[0], {
+                onrendered: function(canvas) {
+                    document.body.appendChild(canvas);
+                    items.each(function(index, item) {
+                        parent.append(item);
+                    });
+                }
+            });
+        }
+    </script>
 </body>
 </html>
 
