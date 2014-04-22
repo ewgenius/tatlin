@@ -24,7 +24,7 @@ function create_image() {
                 .append($('<br>'))
                 .append($('<img>')
                     .attr('src', img))
-                .append($('<form method="post">')
+                .append($('<form id="mail_form" method="post">')
                     .append($('<input type="text" name="email">'))
                     .append($('<br>'))
                     .append($('<input type="hidden" name="image" value=' + img + '>'))
